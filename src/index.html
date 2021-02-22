@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Je m'appelle Batouxas Léo, j'ai 19 ans, je suis développeur Web en 1ère année de BTS SIO option SLAM à Aubusson, Voici mon Portfolio et CV.">
+    <meta name="Description"
+        content="Je m'appelle Batouxas Léo, j'ai 19 ans, je suis développeur Web en 1ère année de BTS SIO option SLAM à Aubusson, Voici mon Portfolio et CV.">
     <script src="https://kit.fontawesome.com/97012cddc4.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="../dist/output.css">
-    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
     <title>Batouxas Léo | Portfolio - Développeur Web</title>
 </head>
 
@@ -19,7 +20,7 @@
                 <div class="col-start-1 m-auto ml-2">
                     <span class="align-middle font-mono text-xl ">BATOUXAS LÉO</span>
                 </div>
-                <div class="col-start-2 mx-auto">
+                <div class="col-start-2 mx-auto hidden lg:block">
                     <a href="index.html" class="font-mono hover:text-yellow-400 mx-2">Accueil</a>
                     <a href="#parcours" class="font-mono hover:text-yellow-400 mx-2">Parcours</a>
                     <a href="#competences" class="font-mono hover:text-yellow-400 mx-2">Compétences</a>
@@ -77,8 +78,11 @@
                     </div>
                 </div>
             </div>
-        </div>
 
+        </div>
+        <div class="h-1/6 flex justify-center">
+            <div class="animate-bounce"><i class="fas fa-arrow-down fa-3x text-yellow-400"></i></div>
+        </div>
         <!-- <div class="h-1/6 flex w-52 m-auto hidden sm:block">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-16 text-dark-700 m-auto animate-bounce" viewBox="0 0 20 20"
                 fill="currentColor">
@@ -88,37 +92,6 @@
             </svg>
         </div> -->
 
-        <!-- Icon flotante 4 coins -->
-        <div class="hidden sm:block" style="position: absolute;">
-            <!-- icone gauche -->
-            <svg width="27" height="29" xmlns="http://www.w3.org/2000/svg"
-                style="position: relative; bottom: 20vh; left:10vw;" class=" text-yellow-400" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path fill-rule="evenodd"
-                    d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" style="position: relative; bottom: 85vh; left:10vw;"
-                class="text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
-        </div>
-        <div class="hidden sm:block" style="position: absolute;">
-            <!-- icone droit -->
-            <svg width="27" height="29" xmlns="http://www.w3.org/2000/svg"
-                style="position: relative; bottom: 85vh; left:90vw;" class="text-red-500" viewBox="0 0 20 20"
-                fill="currentColor">
-                <path fill-rule="evenodd"
-                    d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" style="position: relative; bottom: 20vh; left:90vw;"
-                class="text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
-        </div>
 
     </div>
 
@@ -126,16 +99,18 @@
         <h2 class="text-2xl font-bold text-dark-800 my-3">À Propos de moi</h2>
         <div class="content flex flex-col md:flex-row lg:justify-center">
             <div><img src="img/pdp.png" class="h-36 w-36 mx-auto" alt="" srcset=""></div>
-            <div class="bg-dark-100 rounded-lg shadow-2xl sm:w-10/12 md:ml-5 my-3 mx-auto flex flex-col lg:flex-row triangle ">
+            <div
+                class="bg-dark-100 rounded-lg shadow-2xl sm:w-10/12 md:ml-5 my-3 mx-auto flex flex-col lg:flex-row triangle ">
                 <div class="lg:mx-12 w-11/12 mx-auto">
-                    <div class="lg:text-left text-justify my-3">
+                    <div class="lg:text-left text-justify my-3 text-lg">
                         <p>Passionné par le développement depuis assez jeunes et doté d'une grande curiosité. Je suis en
                             1ère année de BTS SIO option SLAM.</p>
                     </div>
 
                     <div class="b-button my-4">
                         <a href="CV/CV.pdf"
-                            class="bg-red-500 text-dark-100 font-bold uppercase text-xs px-4 py-2 rounded  mb-1 transition duration-700 ease-in-out hover:bg-red-700" target="_blank">
+                            class="bg-red-500 text-dark-100 font-bold uppercase text-xs px-4 py-2 rounded  mb-1 transition duration-700 ease-in-out hover:bg-red-700 text-base"
+                            target="_blank">
                             Téléchargez mon CV
                         </a>
                     </div>
@@ -145,43 +120,49 @@
         </div>
     </div>
 
-    <div class="b-parcours 3xl:mx-80 2xl:mx-64 xl:mx-24 lg:mx-12 xs:mx-6 mx-2 my-10 h-2/6" id="parcours">
+    <div class="b-parcours 3xl:mx-80 2xl:mx-64 xl:mx-24 lg:mx-12 xs:mx-3 mx-2 my-10 h-2/6 justify-center" id="parcours">
         <h2 class="text-2xl font-bold text-dark-800 my-3">Mon Parcours</h2>
 
         <!-- 2021 -->
-        <div class="bg-dark-100 flex flex-col md:flex-row rounded-lg shadow-2xl lg:mx-16 my-2 divide-y-2 md:divide-y-0  md:divide-x-2 divide-red-500" style="border-left: 5px solid #EF4444;">
-            <div class="font-bold self-center text-center md:m-5 m-1">
-                <span class="align-middle">
+        <div class="bg-dark-100 flex flex-col xs:flex-row rounded-lg shadow-2xl lg:mx-16 my-2 divide-y-2 xs:divide-y-0  xs:divide-x-2 divide-red-500"
+            style="border-left: 5px solid #EF4444;">
+            <div class="font-bold self-center text-center xs:m-5 m-1">
+                <span class="align-middle text-lg">
                     2021
-                   </span>
+                </span>
             </div>
-            <div class="md:my-3 py-1 md:mr-3 mx-2">
-                <p class="ml-3">Première année BTS Services informatiques aux organisations option B solutions logicielles et applications métiers</p>
+            <div class="xs:my-3 py-1 xs:mr-3">
+                <p class="ml-3 text-lg">Première année BTS Services informatiques aux organisations option B solutions
+                    logicielles et applications métiers</p>
             </div>
         </div>
 
         <!-- 2020 -->
-        <div class="bg-dark-100 flex flex-col md:flex-row rounded-lg shadow-2xl lg:mx-16 my-2 divide-y-2 md:divide-y-0  md:divide-x-2 divide-yellow-500" style="border-left: 5px solid #EAB308;">
-            <div class="font-bold self-center text-center md:m-5 m-1">
-                <span class="align-middle">
+        <div class="bg-dark-100 flex flex-col xs:flex-row rounded-lg shadow-2xl lg:mx-16 my-2 divide-y-2 xs:divide-y-0  xs:divide-x-2 divide-yellow-500"
+            style="border-left: 5px solid #EAB308;">
+            <div class="font-bold self-center text-center xs:m-5 m-1">
+                <span class="align-middle text-lg">
                     2020
-                   </span>
+                </span>
             </div>
-            <div class="md:my-3 py-1 md:mr-3 mx-2">
-                <p class="ml-3">Baccalauréat sciences et technologies du management et de la gestion option Systèmes
+            <div class="xs:my-3 py-2 xs:mr-3">
+                <p class="ml-3 text-lg">Baccalauréat sciences et technologies du management et de la gestion option
+                    Systèmes
                     d’information de gestion</p>
             </div>
         </div>
 
         <!-- 2016 -->
-        <div class="bg-dark-100 flex flex-col md:flex-row rounded-lg shadow-2xl lg:mx-16 my-2 divide-y-2 md:divide-y-0  md:divide-x-2 divide-cyan-500" style="border-left: 5px solid #06B6D4;">
-            <div class="font-bold self-center text-center md:m-5 m-1">
-                <span class="align-middle">
+        <div class="bg-dark-100 flex flex-col xs:flex-row rounded-lg shadow-2xl lg:mx-16 my-2 divide-y-2 xs:divide-y-0  xs:divide-x-2 divide-cyan-500"
+            style="border-left: 5px solid #06B6D4;">
+            <div class="font-bold self-center text-center xs:m-5 m-1">
+                <span class="align-middle text-lg">
                     2016
-                   </span>
+                </span>
             </div>
-            <div class="md:my-3 py-1 md:mr-3 mx-2">
-                <p class="ml-3">Stage 3ème à Point Cédric Informatique à Ussel - Découverte de l'activité professionnelle en entreprises de 5 jours. </p>
+            <div class="xs:my-3 py-1 xs:mr-3">
+                <p class="ml-3 text-lg">Stage 3ème à Point Cédric Informatique à Ussel - Découverte de l'activité
+                    professionnelle en entreprises de 5 jours. </p>
             </div>
         </div>
     </div>
@@ -193,34 +174,49 @@
         <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 my-2 sm:mx-0 xs:mx-8 mx-5">
             <div class="bg-orange-500 flex  rounded-lg shadow-2xl">
                 <div class="py-2 px-3 m-2"><i class="fab fa-html5 text-orange-900 fa-lg"></i></div>
-                <div class="flex flex-wrap content-center text-orange-900 font-bold"><p>HTML</p></div>
+                <div class="flex flex-wrap content-center text-orange-900 font-bold">
+                    <p class="text-lg">HTML</p>
+                </div>
             </div>
 
             <div class="bg-lblue-500 flex rounded-lg shadow-2xl">
                 <div class="py-2 px-3 m-2"><i class="fab fa-css3-alt text-lblue-900 fa-lg"></i></div>
-                <div class="flex flex-wrap content-center text-lblue-900 font-bold"><p>CSS</p></div>
+                <div class="flex flex-wrap content-center text-lblue-900 font-bold">
+                    <p class="text-lg">CSS</p>
+                </div>
             </div>
 
             <div class="bg-yellow-500 flex rounded-lg shadow-2xl">
                 <div class="py-2 px-3 m-2 "><i class="fab fa-js text-yellow-900 fa-lg"></i></div>
-                <div class="flex flex-wrap content-center text-yellow-900 font-bold"><p>JAVASCRIPT</p></div>
+                <div class="flex flex-wrap content-center text-yellow-900 font-bold">
+                    <p class="text-lg">JAVASCRIPT</p>
+                </div>
             </div>
 
             <div class="bg-red-500 flex rounded-lg shadow-2xl">
                 <div class="py-2 px-3 m-2 "><i class="fas fa-database text-red-900 fa-lg"></i></div>
-                <div class="flex flex-wrap content-center text-red-900 font-bold"><p>SQL</p></div>
+                <div class="flex flex-wrap content-center text-red-900 font-bold">
+                    <p class="text-lg">SQL</p>
+                </div>
             </div>
             <div class="bg-blue-500 flex rounded-lg shadow-2xl">
                 <div class="py-2 px-3 m-2 "><i class="fab fa-php text-blue-900 fa-lg"></i></div>
-                <div class="flex flex-wrap content-center text-blue-900 font-bold"><p>PHP</p></div>
+                <div class="flex flex-wrap content-center text-blue-900 font-bold">
+                    <p class="text-lg">PHP</p>
+                </div>
             </div>
             <div class="bg-indigo-500 flex rounded-lg shadow-2xl">
                 <div class="py-2 px-3 m-2 "><i class="fab fa-bootstrap text-indigo-900 fa-lg"></i></div>
-                <div class="flex flex-wrap content-center text-indigo-900 font-bold"><p>Bootstrap</p></div>
+                <div class="flex flex-wrap content-center text-indigo-900 font-bold">
+                    <p class="text-lg">Bootstrap</p>
+                </div>
             </div>
             <div class="bg-cyan-500 flex rounded-lg shadow-2xl">
-                <div class="p-2 m-3 bg-cyan-900 rounded-lg"><span class="iconify text-cyan-900" data-icon="logos-tailwindcss-icon" data-inline="false"></span></div>
-                <div class="flex flex-wrap content-center text-cyan-900 font-bold"><p>TailWindCSS</p></div>
+                <div class="p-2 m-3 bg-cyan-900 rounded-lg"><span class="iconify text-cyan-900"
+                        data-icon="logos-tailwindcss-icon" data-inline="false"></span></div>
+                <div class="flex flex-wrap content-center text-cyan-900 font-bold">
+                    <p class="text-lg">TailWindCSS</p>
+                </div>
             </div>
         </div>
     </div>
