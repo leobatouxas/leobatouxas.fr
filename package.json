@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss build src/input.css -o dist/output.css",
+    "dev": "postcss build src/input.css -o dist/output.css",
 		"production": "cross-env NODE_ENV=production postcss src/input.css -o dist/output.css"
   },
   "repository": {
